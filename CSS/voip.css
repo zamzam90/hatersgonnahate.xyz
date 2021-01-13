@@ -1,0 +1,27 @@
+.ts-banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 15px 15px 25px rgba(0, 50, 0, 0.19);
+}
+
+.yellowtail {
+  color: darkgray;
+  font-family: 'Yellowtail', cursive;
+}
+ul {
+  float: left;
+  margin: 0 5px;
+}
+
+.boxi {
+    width: 50%;
+    float: left;
+    padding: 10px;
+    /* border: 2px solid red; erottaa missä boxit menee */
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
