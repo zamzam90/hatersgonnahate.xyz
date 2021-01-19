@@ -1,8 +1,12 @@
+.content h1 {
+  text-align: center;
+}
+
 .ts-banner {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 15px 15px 25px rgba(0, 50, 0, 0.19);
+  box-shadow: 15px 15px 25px rgba(0, 80, 0, 0.19);
 }
 
 .yellowtail {
