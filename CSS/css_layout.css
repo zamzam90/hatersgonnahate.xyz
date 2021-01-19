@@ -6,61 +6,91 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
+  /*min-height: 100%;*/
+  background-color: black;
+  margin: 2px;
+  font: 16px Sans-Serif;
 }
 
+/* Header container */
 .header {
+  flex: 0 0 auto;
   padding: 15px;
   font-size: 150%;
   color: darkgrey;
   text-align: center;
   font-family: 'Big Shoulders Stencil Display', cursive;
-  background-color: #303030;
+  background-color: #424242;
 }
 
+.header h1 {
+  text-shadow: 1px 1px 2px black;
+}
+/* ---------------- */
+
+
+/* Navbar container */
 .navbar {
+  flex: 0 0 auto;
+  position: -webkit-sticky;/* Safari */
+  position: sticky;
+  top: 0;
   overflow: hidden;
-  background-color: #303038;
+  background-color: #2c2c2c;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
+/* Links inside the navbar */
 .navbar a {
-  /*display: block;*/
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
+/* Link color on hover */
 .navbar a:hover {
   background-color: #dddddd;
   color: black;
+  border-radius: 50%;
 }
 
+.active {
+  background-color: black;
+  border-radius: 50%;
+}
+/* ------------------- */
+
+/* Content container.. :D */
 .content {
+  color: darkgrey;
+  background-color: #161616;
   flex: 1 0 auto;
   /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
-  color: darkgrey;
-  padding: 20px;
+  margin-top: 15px;
+  padding: 15px;
 }
+/* ---------------------- */
 
+/* Footer container */
 .footer {
   flex-shrink: 0;
   /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
-  padding: 20px;
+  padding: 5px;
+  color: darkgrey;
+  text-align: center;
+  font-family: 'Big Shoulders Stencil Display', cursive;
 }
+/* ---------------- */
+
 
 * {
   box-sizing: border-box;
 }
 
-body {
-  background-color: black;
-  margin: 0;
-  font: 16px Sans-Serif;
-}
-
+/*
 h1 {
   margin: 0 0 20px 0;
 }
@@ -68,9 +98,4 @@ h1 {
 p {
   margin: 0 0 20px 0;
 }
-
-footer {
-  color: darkgrey;
-  text-align: center;
-  font-family: 'Big Shoulders Stencil Display', cursive;
-}
+*/

@@ -12,6 +12,11 @@ body {
   font: 16px Sans-Serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+/* Header container */
 .header {
   flex: 0 0 auto;
   padding: 15px;
@@ -25,6 +30,8 @@ body {
 .header h1 {
   text-shadow: 1px 1px 2px black;
 }
+/* ---------------- */
+
 
 /* Navbar container */
 .navbar {
@@ -37,17 +44,18 @@ body {
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
+  border-bottom: 1px solid black;
 }
 
 /* Links inside the navbar */
 .navbar a {
-  /*display: block;*/
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
+/* Link color on hover */
 .navbar a:hover {
   background-color: #dddddd;
   color: black;
@@ -58,16 +66,20 @@ body {
   background-color: black;
   border-radius: 50%;
 }
+/* ------------------- */
 
+/* Content container.. :D */
 .content {
   color: darkgrey;
   background-color: #161616;
   flex: 1 0 auto;
   /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
-  margin-top: 15px;
+  margin-top: 20px;
   padding: 15px;
 }
+/* ---------------------- */
 
+/* Footer container */
 .footer {
   flex-shrink: 0;
   /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
@@ -76,17 +88,4 @@ body {
   text-align: center;
   font-family: 'Big Shoulders Stencil Display', cursive;
 }
-
-* {
-  box-sizing: border-box;
-}
-
-/*
-h1 {
-  margin: 0 0 20px 0;
-}
-
-p {
-  margin: 0 0 20px 0;
-}
-*/
+/* ---------------- */
