@@ -12,6 +12,10 @@ body {
   font: 16px Sans-Serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 /* Header container */
 .header {
   flex: 0 0 auto;
@@ -84,18 +88,3 @@ body {
   font-family: 'Big Shoulders Stencil Display', cursive;
 }
 /* ---------------- */
-
-
-* {
-  box-sizing: border-box;
-}
-
-/*
-h1 {
-  margin: 0 0 20px 0;
-}
-
-p {
-  margin: 0 0 20px 0;
-}
-*/
