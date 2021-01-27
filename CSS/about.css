@@ -6,6 +6,10 @@
   margin-right: auto;
   margin-bottom: 10px;
 }
+.profile_pic:hover {
+  box-shadow: 0 0 8px white, 0 0 8px red;
+}
+
 .yellowtail {
   color: darkgray;
   font-family: 'Yellowtail', cursive;

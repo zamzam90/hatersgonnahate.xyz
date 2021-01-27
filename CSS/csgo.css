@@ -2,19 +2,19 @@
   color: darkgray;
   font-family: 'Yellowtail', cursive;
 }
-ul {
-  float: left;
-  margin: 0 5px;
+
+.flexkontti {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.boxi {
-    width: 50%;
-    float: left;
-    padding: 10px;
-    /* border: 2px solid red; erottaa missä boxit menee */
+.flexboxi {
+  /*width: ; */
+  padding: 15px;
+  /*border: 1px solid red; /* erottaa missä boxit menee */
+  border-collapse: collapse;
 }
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+.flexboxi code {
+  border: 1px solid darkgray;
 }

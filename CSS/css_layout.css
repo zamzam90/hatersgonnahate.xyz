@@ -19,51 +19,104 @@ body {
 /* Header container */
 .header {
   flex: 0 0 auto;
-  padding: 15px;
-  font-size: 150%;
-  color: darkgrey;
+  padding: 15px 150px;
+  font-size: 160%;
+  color: #1c1c1c;
   text-align: center;
   font-family: 'Big Shoulders Stencil Display', cursive;
   background-color: #424242;
+  background-image: url(../img/under-construction.png);
+  background-position: center;
+  background-size: contain;
+}
+/* a bit bigger h1*/
+.headerbox h1 {
+  text-shadow: 0 0 6px white, 0 0 6px red;
+  opacity: 1;
 }
 
-.header h1 {
-  text-shadow: 1px 1px 2px black;
-}
+/* transparent box, meh */
+/*.headerbox {
+  margin: auto;
+  width: 35%;
+  background-color: #424242;
+  border: 1px solid black;
+  opacity: 0.6;
+}*/
 /* ---------------- */
 
 
-/* Navbar container */
-.navbar {
+/* Navbar "container" */
+nav {
   flex: 0 0 auto;
   position: -webkit-sticky;/* Safari */
   position: sticky;
   top: 0;
-  overflow: hidden;
   background-color: #2c2c2c;
-  text-align: center;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  border-bottom: 2px solid black;
+  z-index: 1; /* so sticky works correctly */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
 }
 
 /* Links inside the navbar */
-.navbar a {
+nav li a, .dropbtn {
+  display: inline-block;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  border-radius: 5%;
 }
 
-/* Link color on hover */
-.navbar a:hover {
+/* Link color on hover, except active one */
+nav li a:hover:not(.active), .dropdown:hover:not(.active) .dropbtn {
   background-color: #dddddd;
   color: black;
-  border-radius: 50%;
 }
 
+nav li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2c2c2c;
+  font-size: 80%;
+  min-width: 80px;
+  border-radius: 5%;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #f2f2f2;
+  padding: 10px 14px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #dddddd;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* active link */
 .active {
-  background-color: black;
-  border-radius: 50%;
+  background-color: #003c00;
+  border-radius: 5%;
+  /* border: 1px solid #161616; */
 }
 /* ------------------- */
 
@@ -83,6 +136,7 @@ body {
   flex-shrink: 0;
   /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
   padding: 5px;
+  /*background-color: grey;*/
   color: darkgrey;
   text-align: center;
   font-family: 'Big Shoulders Stencil Display', cursive;
