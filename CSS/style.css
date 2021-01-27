@@ -19,52 +19,74 @@ body {
 /* Header container */
 .header {
   flex: 0 0 auto;
-  padding: 15px;
+  padding: 15px 150px;
   font-size: 150%;
   color: darkgrey;
   text-align: center;
   font-family: 'Big Shoulders Stencil Display', cursive;
   background-color: #424242;
+  background-image: url(../img/under-construction.png);
+  background-position: center;
+  background-size: contain;
+}
+/* a bit bigger h1*/
+.headerbox h1 {
+  text-shadow: 1px 1px 2px black;
+  opacity: 1;
 }
 
-.header h1 {
-  text-shadow: 1px 1px 2px black;
+/* transparent box */
+.headerbox {
+  margin: auto;
+  width: 35%;
+  background-color: #424242;
+  border: 1px solid black;
+  opacity: 0.6;
 }
 /* ---------------- */
 
 
-/* Navbar container */
-.navbar {
+/* Navbar "container" */
+nav {
   flex: 0 0 auto;
   position: -webkit-sticky;/* Safari */
   position: sticky;
   top: 0;
-  overflow: hidden;
   background-color: #2c2c2c;
-  text-align: center;
-  padding-top: 5px;
-  padding-bottom: 5px;
   border-bottom: 1px solid black;
 }
 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
 /* Links inside the navbar */
-.navbar a {
+nav li a {
+  display: block;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  border-radius: 5%;
 }
 
-/* Link color on hover */
-.navbar a:hover {
+/* Link color on hover, except active one */
+li a:hover:not(.active) {
   background-color: #dddddd;
   color: black;
-  border-radius: 50%;
 }
-
+/* active link */
 .active {
-  background-color: black;
-  border-radius: 50%;
+  background-color: #003c00;
+  border-radius: 5%;
+  /* border: 1px solid #161616; */
 }
 /* ------------------- */
 

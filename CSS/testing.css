@@ -4,7 +4,7 @@
 
 .active_test {
   background-color: salmon;
-  border-radius: 50%;
+  border-radius: 5%;
 }
 
 input[type=text], select, textarea {
