@@ -36,6 +36,7 @@ div.desc {
   padding: 0 6px;
   float: left;
   width: 20%;
+  /* border: 2px solid red; see dem 'boxes' */
 }
 
 @media only screen and (max-width: 1200px) {
