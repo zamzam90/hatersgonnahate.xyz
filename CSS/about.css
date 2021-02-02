@@ -6,8 +6,12 @@
   margin-right: auto;
   margin-bottom: 10px;
 }
+
+/* profile pic shadow and flip on hover :D */
 .profile_pic:hover {
   box-shadow: 0 0 8px white, 0 0 8px red;
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
 }
 
 .yellowtail {
