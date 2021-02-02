@@ -2,3 +2,8 @@
   text-align: center;
   text-shadow: 0 0 8px green;
 }
+
+.active_test {
+  background-color: salmon;
+  border-radius: 5%;
+}

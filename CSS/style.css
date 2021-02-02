@@ -8,7 +8,7 @@ body {
   flex-direction: column;
   /*min-height: 100%;*/
   background-color: black;
-  margin: 0.125em; /* 2px; */
+  margin: 2px;
   font: 16px Sans-Serif;
 }
 
@@ -19,7 +19,7 @@ body {
 /* Header container */
 .header {
   flex: 0 0 auto;
-  padding: 0.9375em 9.375em; /* 15px 150px */
+  padding: 15px 150px;
   font-size: 160%;
   color: #1c1c1c;
   text-align: center;
@@ -30,19 +30,9 @@ body {
   background-size: contain;
 }
 /* a bit bigger h1*/
-.headerbox h1 {
-  text-shadow: 0 0 0.375em white, 0 0 0.375em red; /*0 0 6px */
-  opacity: 1;
+.header h1 {
+  text-shadow: 0 0 6px white, 0 0 6px red;
 }
-
-/* transparent box, meh */
-/*.headerbox {
-  margin: auto;
-  width: 35%;
-  background-color: #424242;
-  border: 1px solid black;
-  opacity: 0.6;
-}*/
 /* ---------------- */
 
 
@@ -53,7 +43,7 @@ nav {
   position: sticky;
   top: 0;
   background-color: #2c2c2c;
-  border-bottom: 0.125em; solid black; /* 2px */
+  border-bottom: 2px solid black;
   z-index: 1; /* so sticky works correctly */
 }
 
@@ -70,10 +60,10 @@ nav li {
 
 /* Links inside the navbar */
 nav li a, .dropbtn {
-  display: inline-block;
+  display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 0.875em 1em; /* 14px 16px */
+  padding: 14px 16px;
   text-decoration: none;
   border-radius: 5%;
 }
@@ -84,8 +74,19 @@ nav li a:hover:not(.active), .dropdown .dropbtn {
   color: black;
 }
 
+/* active link */
+.active {
+  background-color: #003c00;
+  border-radius: 5%;
+  /* border: 1px solid #161616; */
+}
+
+.right {
+  float: right;
+}
+
 nav li.dropdown {
-  display: inline-block;
+  display: block;
 }
 
 .dropdown-content {
@@ -93,14 +94,14 @@ nav li.dropdown {
   position: absolute;
   background-color: #2c2c2c;
   font-size: 80%;
-  min-width: 5em; /* 80px */
+  min-width: 80px;
   border-radius: 5%;
   z-index: 1;
 }
 
 .dropdown-content a {
   color: #f2f2f2;
-  padding: 0.625em 0.875em; /* 10px 14px */
+  padding: 10px 14px;
   text-decoration: none;
   display: block;
   text-align: left;
@@ -112,11 +113,9 @@ nav li.dropdown {
   display: block;
 }
 
-/* active link */
-.active {
-  background-color: #003c00;
-  border-radius: 5%;
-  /* border: 1px solid #161616; */
+@media screen and (max-width: 600px) {
+  nav ul li.right,
+  nav ul li {float: none;}
 }
 /* ------------------- */
 
@@ -126,8 +125,10 @@ nav li.dropdown {
   background-color: #161616;
   flex: 1 0 auto;
   /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
-  margin-top: 0.9375em; /* 15px */
-  padding: 0.9375em; /* 15px */
+  min-width: 320px;
+  margin-top: 15px;
+  padding: 15px;
+  width: 100%;
 }
 /* ---------------------- */
 
@@ -135,10 +136,10 @@ nav li.dropdown {
 .footer {
   flex-shrink: 0;
   /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
-  padding: 0.3125em; /* 5px */
+  padding: 5px;
   /*background-color: grey;*/
   color: darkgrey;
   text-align: center;
   font-family: 'Big Shoulders Stencil Display', cursive;
 }
-/* ---------------- */
+/* ---------------------- */

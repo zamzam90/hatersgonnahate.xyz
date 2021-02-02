@@ -6,17 +6,15 @@
 .flexkontti {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
+
 .flexkontti_ {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
+  margin: 2px;
+/* border: 1px solid red; näkee missä menee containeri */
 }
-.flexboxi {
-  width: 550px;
-  /*padding: 15px;*/
-  /*border: 1px solid red; /* erottaa missä boxit menee */
-  border-collapse: collapse;
+
+.flexboxi img{
+  max-width: 100%;
+  height: auto;
 }

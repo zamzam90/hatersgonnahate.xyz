@@ -30,19 +30,9 @@ body {
   background-size: contain;
 }
 /* a bit bigger h1*/
-.headerbox h1 {
+.header h1 {
   text-shadow: 0 0 6px white, 0 0 6px red;
-  opacity: 1;
 }
-
-/* transparent box, meh */
-/*.headerbox {
-  margin: auto;
-  width: 35%;
-  background-color: #424242;
-  border: 1px solid black;
-  opacity: 0.6;
-}*/
 /* ---------------- */
 
 
@@ -79,9 +69,20 @@ nav li a, .dropbtn {
 }
 
 /* Link color on hover, except active one */
-nav li a:hover:not(.active), .dropdown:hover:not(.active) .dropbtn {
+nav li a:hover:not(.active), .dropdown .dropbtn {
   background-color: #dddddd;
   color: black;
+}
+
+/* active link */
+.active {
+  background-color: #003c00;
+  border-radius: 5%;
+  /* border: 1px solid #161616; */
+}
+
+.right {
+  float: right;
 }
 
 nav li.dropdown {
@@ -112,12 +113,6 @@ nav li.dropdown {
   display: block;
 }
 
-/* active link */
-.active {
-  background-color: #003c00;
-  border-radius: 5%;
-  /* border: 1px solid #161616; */
-}
 /* ------------------- */
 
 /* Content container.. :D */
@@ -126,8 +121,10 @@ nav li.dropdown {
   background-color: #161616;
   flex: 1 0 auto;
   /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+  min-width: 320px;
   margin-top: 15px;
   padding: 15px;
+  width: 100%;
 }
 /* ---------------------- */
 
