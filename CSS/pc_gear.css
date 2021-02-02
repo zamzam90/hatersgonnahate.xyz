@@ -18,3 +18,9 @@
   max-width: 100%;
   height: auto;
 }
+
+.content {
+  background-image: url(../img/server_room.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

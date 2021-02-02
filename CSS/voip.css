@@ -13,3 +13,9 @@
   color: darkgray;
   font-family: 'Yellowtail', cursive;
 }
+
+.content {
+  background-image: url(../img/network.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
