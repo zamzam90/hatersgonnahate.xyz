@@ -5,13 +5,22 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
+  /* spin spin */
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
 }
 
 /* profile pic shadow and flip on hover :D */
 .profile_pic:hover {
   box-shadow: 0 0 8px white, 0 0 8px red;
-  -webkit-transform: scaleY(-1);
-  transform: scaleY(-1);
+  /*SPIN*/
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  /*SPIN*/
 }
 
 .yellowtail {
