@@ -1,6 +1,9 @@
 .content h1 {
   text-align: center;
-  text-shadow: 0 0 0.35em white;/* 0 0 0.2em red;*/
+  text-shadow: 0 0 12px white;
+}
+.content h1:hover {
+  text-shadow: 0 0 12px red;
 }
 
 .active_test {
