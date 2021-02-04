@@ -29,6 +29,7 @@
 }
 
 .content {
+  background-color: black;
   background-image: url(../img/programming.jpg);
   background-size: cover;
   background-repeat: no-repeat;
