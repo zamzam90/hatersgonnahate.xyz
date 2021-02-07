@@ -32,7 +32,7 @@ body {
   margin-top: 2px;
   margin-left: auto;
   margin-right: auto;
-  width: 95%;
+  width: 80%;
 }
 /* a bit bigger h1*/
 .header h1 {
@@ -54,7 +54,7 @@ nav {
   /* reunoille tyhjöää vähän.. */
   margin-left: auto;
   margin-right: auto;
-  width: 95%;
+  width: 80%;
 }
 
 nav ul {
@@ -140,7 +140,7 @@ nav li.dropdown {
   /* reunoille tyhjöää vähän.. */
   margin-left: auto;
   margin-right: auto;
-  width: 95%;
+  width: 80%;
 }
 /* ---------------------- */
 
@@ -156,7 +156,7 @@ nav li.dropdown {
   /* reunoille tyhjöää vähän.. */
   margin-left: auto;
   margin-right: auto;
-  width: 95%;
+  width: 80%;
 }
 /* ---------------------- */
 /* 'responsivness' :D */
