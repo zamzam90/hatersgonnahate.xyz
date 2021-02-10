@@ -3,7 +3,7 @@
   font-family: 'Yellowtail', cursive;
 }
 
-.content h1 p{
+.content h1, p{
   text-align: center;
 }
 
