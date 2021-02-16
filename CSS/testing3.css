@@ -1,9 +1,9 @@
-.content h1 {
-  text-shadow: 0 0 8px green;
+.content {
+  text-align: center;
 }
 
-.content h1, p {
-  text-align: center;
+.content h1 {
+  text-shadow: 0 0 8px green;
 }
 
 .active_test {
