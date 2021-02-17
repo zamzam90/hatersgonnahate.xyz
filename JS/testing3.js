@@ -23,5 +23,6 @@ function reverse()
 //delete reversed word..
 function empty()
 {
+  reversedwrd.value = '';
   document.getElementById('result').innerHTML = '';
 }
