@@ -20,7 +20,7 @@ function reverse()
   }
   document.getElementById('result').innerHTML = uusiSana;
 }
-//delete reversed word..
+//delete reversed word and empty input box..
 function empty()
 {
   reversedwrd.value = '';
