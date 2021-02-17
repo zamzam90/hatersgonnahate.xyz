@@ -20,3 +20,8 @@ function reverse()
   }
   document.getElementById('result').innerHTML = uusiSana;
 }
+//delete reversed word..
+function empty()
+{
+  document.getElementById('result').innerHTML = '';
+}
