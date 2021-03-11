@@ -48,11 +48,13 @@
   color: darkgray;
   font-family: 'Yellowtail', cursive;
 }
+
 .content {
   background-image: url(../img/matrix.jpg);
   background-repeat: no-repeat;
   background-size: auto;
 }
+
 .content h1 {
   text-align: center;
 }

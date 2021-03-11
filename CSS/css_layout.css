@@ -34,14 +34,14 @@ body {
   margin-right: auto;
   width: 95%;
 }
+
 /* a bit bigger h1*/
 .header h1 {
   margin: 15px 0;
   text-shadow: 0 0 6px white, 0 0 6px red;
 }
+
 /* ---------------- */
-
-
 /* Navbar "container" */
 nav {
   flex: 0 0 auto;
@@ -116,18 +116,23 @@ nav li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #dddddd;}
+.dropdown-content a:hover {
+  background-color: #dddddd;
+}
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
 @media screen and (max-width: 600px) {
-  nav ul li.right,
-  nav ul li {float: none;}
-}
-/* ------------------- */
 
+  nav ul li.right,
+  nav ul li {
+    float: none;
+  }
+}
+
+/* ------------------- */
 /* Content container.. :D */
 .content {
   color: darkgrey;
@@ -142,8 +147,8 @@ nav li.dropdown {
   margin-right: auto;
   width: 95%;
 }
-/* ---------------------- */
 
+/* ---------------------- */
 /* Footer container */
 .footer {
   flex-shrink: 0;
@@ -158,15 +163,19 @@ nav li.dropdown {
   margin-right: auto;
   width: 95%;
 }
+
 /* ---------------------- */
 /* 'responsivness' :D */
 @media screen and (max-width: 600px) {
-  .header, nav, .content, .footer
-  {width: 100%;}
+  .header, nav, .content, .footer {
+    width: 100%;
+  }
 }
+
 @media screen and (max-width: 600px) {
   .header {
     margin-top: 0;
   }
 }
+
 /* ---------------------- */

@@ -11,10 +11,10 @@
 
 .flexkontti_ {
   margin: 2px;
-/* border: 1px solid red; näkee missä menee containeri */
+  /* border: 1px solid red; näkee missä menee containeri */
 }
 
-.flexboxi img{
+.flexboxi img {
   max-width: 100%;
   height: auto;
 }

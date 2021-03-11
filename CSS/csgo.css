@@ -13,19 +13,22 @@
   margin: 2px;
   /*border: 1px solid red; /* erottaa missä boxit menee */
 }
+
 .flexboxi code {
   border: 1px solid darkgray;
 }
 
-.flexboxi img{
+.flexboxi img {
   max-width: 100%;
   height: auto;
 }
+
 .content {
   background-image: url(../img/network.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .content h1 {
   text-align: center;
 }

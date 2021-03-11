@@ -2,6 +2,7 @@
   text-align: center;
   text-shadow: 0 0 12px white;
 }
+
 .content h1:hover {
   text-shadow: 0 0 12px red;
 }
@@ -10,6 +11,7 @@
   background-color: salmon;
   border-radius: 5%;
 }
+
 div.gallery {
   border: 1px solid #2c2c2c;
 }
@@ -24,6 +26,7 @@ div.gallery img {
   /* object-fit: cover; */
   opacity: 0.5;
 }
+
 div.gallery img:hover {
   /*width: 100%;
   height: auto;
