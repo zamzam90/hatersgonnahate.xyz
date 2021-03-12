@@ -11,7 +11,7 @@
 
 .flexboxi {
   margin: 2px;
-  padding: 0 5px;
+  padding: 5px 10px;
   background-color: hsla(240, 100%, 0%, 0.5);
   border-radius: 2%;
   /*border: 1px solid red; /* erottaa missä boxit menee */
