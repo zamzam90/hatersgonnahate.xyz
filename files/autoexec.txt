@@ -83,7 +83,7 @@ cl_crosshairgap "-1.500000";
 cl_crosshairgap_useweaponvalue "0";
 cl_crosshair_sniper_width "2";
 
-echo "aim.exe Loaded            [X]"; 														//Loading confirmation in console
+echo "aim.exe Loaded              [X]"; 													//Loading confirmation in console
 
 
 // 4. Hud
@@ -222,7 +222,7 @@ alias "hi" "exec autoexec";																	//executes the autoexec file..
 
 echo "Other Settings Loaded       [X]";														//Loading confirmation in console
 echo " ";
-echo "Settingss 100% Loaded         [X]";													//Loading confirmation in console
+echo "Settingss 100% Loaded       [X]";														//Loading confirmation in console
 echo " ";
 echo " ";
 echo " ";
