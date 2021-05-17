@@ -4,6 +4,7 @@
   margin-right: auto;
   margin-bottom: 10px;
   /* spin spin */
+  transition: all 1s ease-in-out;
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
@@ -12,6 +13,7 @@
 
 .github_pic:hover {
   /*SPIN*/
+  transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
   -o-transform: rotate(360deg);
@@ -27,6 +29,7 @@
   margin-right: auto;
   margin-bottom: 10px;
   /* spin spin */
+  transition: all 1s ease-in-out;
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
@@ -37,6 +40,7 @@
 .profile_pic:hover {
   box-shadow: 0 0 8px white, 0 0 8px red;
   /*SPIN*/
+  transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
   -o-transform: rotate(360deg);
