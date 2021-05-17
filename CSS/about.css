@@ -46,13 +46,13 @@
 
 .yellowtail {
   color: darkgray;
-  font-family: 'Yellowtail', cursive;
+  font-family: "Yellowtail", cursive;
 }
 
 .content {
   background-image: url(../img/matrix.jpg);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
 }
 
 .content h1 {
